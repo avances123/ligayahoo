@@ -4,7 +4,6 @@
 # See: http://doc.scrapy.org/topics/item-pipeline.html
 
 import psycopg2
-from numpy import random
 
 def sacaFutbolista(posicion,cantidad):
 	cur.execute("SELECT name,market_price FROM jugadores where position=%s order by RANDOM() limit %s;",(posicion,cantidad))
