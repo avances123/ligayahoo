@@ -9,5 +9,8 @@ class SuperligaYahooItem(Item):
     # define the fields for your item here like:
     name = Field()
     games_played = Field()
-    points = Field()
+    total_points = Field()
     market_price = Field()
+    price_per_point = Field()
+    point_average_last3 = Field()
+    point_average_total = Field()

@@ -10,7 +10,7 @@ class SuperligaYahooSpider(BaseSpider):
 	domain_name = "es.laliga.fantasysports.yahoo.com"
 	#start_urls = ["http://es.laliga.fantasysports.yahoo.com/football/players/00000","http://es.laliga.fantasysports.yahoo.com/football/players/19054"]
 	def start_requests(self):
-		for i in range(19000,19955):
+		for i in range(19900,19955):
 			#print 'http://es.laliga.fantasysports.yahoo.com/football/players/%05d' % i
 			yield Request('http://es.laliga.fantasysports.yahoo.com/football/players/%05d' % i, self.parse)
 	
@@ -25,6 +25,12 @@ class SuperligaYahooSpider(BaseSpider):
 
 		item = SuperligaYahooItem()
 		item['name'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[1]/div[2]/h2/text()').extract()[0].strip()
+		item['games_played'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[1]/tbody/tr[1]/td/span/text()').extract()[0].strip()
+		item['total_points'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[1]/tbody/tr[2]/td[1]/span[1]/text()').extract()[0].strip()
+		item['market_price'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[1]/tbody/tr[2]/td[2]/text()').extract()[0].strip()
+		item['price_per_point'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[3]/tbody/tr[2]/td[2]/text()').extract()[0].strip()
+		item['point_average_last3'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[3]/tbody/tr[3]/td/span/text()').extract()[0].strip()
+		item['point_average_total'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[3]/tbody/tr[4]/td[2]/text()').extract()[0].strip()
 		return item
 		
 
