@@ -13,4 +13,6 @@ SPIDER_MODULES = ['superliga_yahoo.spiders']
 NEWSPIDER_MODULE = 'superliga_yahoo.spiders'
 DEFAULT_ITEM_CLASS = 'superliga_yahoo.items.SuperligaYahooItem'
 USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
-
+ITEM_PIPELINES = [
+		    'superliga_yahoo.pipelines.SuperligaYahooPipeline',
+			]
