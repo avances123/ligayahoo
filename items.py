@@ -14,3 +14,4 @@ class SuperligaYahooItem(Item):
     price_per_point = Field()
     point_average_last3 = Field()
     point_average_total = Field()
+    lastweek_points = Field()

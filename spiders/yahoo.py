@@ -31,6 +31,7 @@ class SuperligaYahooSpider(BaseSpider):
 		item['price_per_point'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[3]/tbody/tr[2]/td[2]/text()').extract()[0].strip()
 		item['point_average_last3'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[3]/tbody/tr[3]/td/span/text()').extract()[0].strip()
 		item['point_average_total'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[3]/tbody/tr[4]/td[2]/text()').extract()[0].strip()
+		item['lastweek_points'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[3]/tbody/tr[4]/td[1]/text()').extract()[0].strip()
 		return item
 		
 
