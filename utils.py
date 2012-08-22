@@ -26,9 +26,6 @@ class Team:
 			return False
 		if len(self.players) != 11:
 			return False
-		if len(self.players)!=len(set(self.players)):
-			#print "Atencion, equipo con jugadores repetidos"
-			return False
 		return True
 
 	def updateData(self):
@@ -75,28 +72,24 @@ class Driver:
 	def getRandomizedTeam(self):
 		team = Team()
 		while team.isValid() is False:
+			self.teams_done += 1
 			team.players = []
 			#print "Equipo falso precio: %d" % team.price
 			dibujos = [(1,4,3,3),(1,4,4,2),(1,3,4,3),(1,3,5,2)]
 			team.dibujo = random.choice(dibujos)
-			for i in range(team.dibujo[0]):
-				team.players.append(random.choice(self.goalkeepers))
-			for i in range(team.dibujo[1]):
-				team.players.append(random.choice(self.defences))
-			for i in range(team.dibujo[2]):
-				team.players.append(random.choice(self.midfielders))
-			for i in range(team.dibujo[3]):
-				team.players.append(random.choice(self.strikers))
+			map(team.players.append,random.sample(self.goalkeepers,team.dibujo[0]))
+			map(team.players.append,random.sample(self.defences,team.dibujo[1]))
+			map(team.players.append,random.sample(self.midfielders,team.dibujo[2]))
+			map(team.players.append,random.sample(self.strikers,team.dibujo[3]))
 			team.updateData()
 
-		self.teams_done += 1
 		return team
 
 
 if __name__ == "__main__":
 	driver = Driver()
 	toprank = 0
-	for i in range(1000000):
+	for i in range(10000000):
 	#while True:
 		team = driver.getRandomizedTeam()
 		if team.rank > toprank:
