@@ -1,6 +1,6 @@
 # con 10000000 rank = 116
 
-import psycopg2,random,itertools
+import psycopg2,random,itertools,time
 
 NUMTEAMS=20000000
 
@@ -109,6 +109,7 @@ class Driver:
 
 	def getBruteForceTeam(self):
 		x = 0
+		start = time.time()
 		dibujos = [(1,3,4,3),(1,3,5,2),(1,4,3,3),(1,4,4,2)]
 		for dibujo in dibujos:
 			for porteros in itertools.combinations(self.goalkeepers,dibujo[0]):
@@ -127,6 +128,11 @@ class Driver:
 							team.dibujo = dibujo
 							team.sumData()
 							self.teams_done += 1
+						
+							if x % 1000000 == 0:
+								print time.time() - start
+								start = time.time()
+
 							if team.isValid():
 								yield team
 		
