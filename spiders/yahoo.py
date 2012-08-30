@@ -10,7 +10,6 @@ class SuperligaYahooSpider(BaseSpider):
 	domain_name = "es.laliga.fantasysports.yahoo.com"
 	#start_urls = ["http://es.laliga.fantasysports.yahoo.com/football/players/00000","http://es.laliga.fantasysports.yahoo.com/football/players/19054"]
 	def start_requests(self):
-		#for i in range(0,100000):
 		with open('/home/fabio/src/superliga_yahoo/superliga_yahoo/id.txt') as f:
 			for i in f.readlines():
 				j = int(i)

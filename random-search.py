@@ -51,7 +51,6 @@ class Driver:
 	def __init__(self):
 		self.conn = psycopg2.connect("dbname=ligayahoo user=postgres",autocommit=True)
 		self.cur = self.conn.cursor()
-		self.allplayers = self.getAllPlayers()
 		self.goalkeepers = self.getPlayerByPosition('Portero')
 		self.defences = self.getPlayerByPosition('Defensa')
 		self.midfielders = self.getPlayerByPosition('Centrocampista')
@@ -71,18 +70,12 @@ class Driver:
 
 	def getPlayerByPosition(self,position):
 		players = []
-		self.cur.execute("SELECT id,name,position,market_price,point_average_last3 FROM jugadores where valid = true and position = %s order by point_average_last3 desc limit 200;",(position,))
+		self.cur.execute("SELECT id,name,position,market_price,point_average_last3 FROM jugadores where valid = true and position = %s order by point_average_last3 desc",(position,))
 		for row in self.cur.fetchall():
 			players.append(Player(row[0],row[1],row[2],row[3],row[4]))
 		return players
 
 
-	def getAllPlayers(self):
-		players = []
-		self.cur.execute("SELECT id,name,position,market_price,point_average_last3 FROM jugadores where valid = true order by point_average_last3 desc limit 200;")
-		for row in self.cur.fetchall():
-			players.append(Player(row[0],row[1],row[2],row[3],row[4]))
-		return players
 
 	def getRandomizedTeam(self):
 		team = Team()
@@ -99,8 +92,9 @@ class Driver:
 			team.updateData()
 		return team
 
-	def getBruteForceTeam(self):
 
+
+	def getBruteForceTeam(self):
 		dibujos = [(1,3,4,3),(1,3,5,2),(1,4,3,3),(1,4,4,2)]
 		for dibujo in dibujos:
 			for porteros in itertools.combinations(self.goalkeepers,dibujo[0]):
@@ -124,6 +118,7 @@ class Driver:
 if __name__ == "__main__":
 	driver = Driver()
 	toprank = 0
+
 	#for i in range(NUMTEAMS):
 	for team in driver.getBruteForceTeam():
 		#team = driver.getRandomizedTeam()
