@@ -34,7 +34,7 @@ class Team:
 	def isValid(self):
 		if self.price > 100:
 			return False
-		if self.rank < 115:
+		if self.rank < 110:
 			return False
 		if len(self.players) != 11:
 			return False
@@ -82,7 +82,8 @@ class Driver:
 
 	def getPlayerByPosition(self,position):
 		players = []
-		self.cur.execute("SELECT id,name,position,market_price,point_average_last3 FROM jugadores where valid = true and position = %s order by point_average_last3 desc",(position,))
+		#self.cur.execute("SELECT id,name,position,market_price,point_average_last3 FROM jugadores where valid = true and position = %s order by point_average_last3 desc",(position,))
+		self.cur.execute("SELECT id,name,position,market_price,point_average_last3 FROM jugadores where valid = true and position = %s order by market_price asc",(position,))
 		for row in self.cur.fetchall():
 			players.append(Player(row[0],row[1],row[2],row[3],row[4]))
 		return players
