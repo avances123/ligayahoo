@@ -37,39 +37,11 @@ CREATE TABLE equipos (
     precio real,
     id integer NOT NULL,
     rendimiento real,
-    jugador integer
+    jugador integer NOT NULL
 );
 
 
 ALTER TABLE public.equipos OWNER TO postgres;
-
---
--- Name: equipos_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
---
-
-CREATE SEQUENCE equipos_id_seq
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1;
-
-
-ALTER TABLE public.equipos_id_seq OWNER TO postgres;
-
---
--- Name: equipos_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
---
-
-ALTER SEQUENCE equipos_id_seq OWNED BY equipos.id;
-
-
---
--- Name: equipos_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
---
-
-SELECT pg_catalog.setval('equipos_id_seq', 174856, true);
-
 
 --
 -- Name: jugadores; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
@@ -92,13 +64,6 @@ CREATE TABLE jugadores (
 
 
 ALTER TABLE public.jugadores OWNER TO postgres;
-
---
--- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY equipos ALTER COLUMN id SET DEFAULT nextval('equipos_id_seq'::regclass);
-
 
 --
 -- Data for Name: equipos; Type: TABLE DATA; Schema: public; Owner: postgres
@@ -606,7 +571,7 @@ COPY jugadores (id, name, games_played, lastweek_points, point_average_total, po
 --
 
 ALTER TABLE ONLY equipos
-    ADD CONSTRAINT equipos_pkey PRIMARY KEY (id);
+    ADD CONSTRAINT equipos_pkey PRIMARY KEY (id, jugador);
 
 
 --

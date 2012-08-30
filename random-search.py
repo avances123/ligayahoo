@@ -21,22 +21,26 @@ class Team:
 	"""
 	Un equipo de la liga yahoo, conjunto de 11 jugadores
 	"""
+	id_start = 0
+
 	def __init__(self):
 		self.price = 0
 		self.rank = 0
 		self.players = []
 		self.dibujo = ()
+		self.id = Team.id_start
+		Team.id_start += 1		
 
 	def isValid(self):
 		if self.price > 100:
 			return False
-		if self.rank < 115:
+		if self.rank < 80:
 			return False
 		if len(self.players) != 11:
 			return False
 		return True
 
-	def updateData(self):
+	def sumData(self):
 		self.price = 0
 		self.rank = 0
 		for i in self.players:
@@ -57,6 +61,14 @@ class Driver:
 		self.strikers = self.getPlayerByPosition('Delantero')
 		self.teams_done = 0
 
+	def sacaUltimoIdTeam(self):
+		self.cur.execute("SELECT id from equipos order by id desc limit 1")
+		try:
+			return self.cur.fetchone()[0]
+		except:
+			return 1
+
+
 	def close(self):
 		self.cur.close()
 		self.conn.close()
@@ -65,7 +77,7 @@ class Driver:
 	def saveTeam(self,team):
 		pgarray = []
 		for player in team.players:
-			self.cur.execute("INSERT INTO equipos (jugador,dibujo,precio,rendimiento) VALUES (%s,%s,%s,%s);",(player.id,team.dibujo,team.price,team.rank))
+			self.cur.execute("INSERT INTO equipos (id,jugador,dibujo,precio,rendimiento) VALUES (%s,%s,%s,%s,%s);",(team.id,player.id,team.dibujo,team.price,team.rank))
 		self.conn.commit()
 
 	def getPlayerByPosition(self,position):
@@ -89,7 +101,7 @@ class Driver:
 			map(team.players.append,random.sample(self.defences,team.dibujo[1]))
 			map(team.players.append,random.sample(self.midfielders,team.dibujo[2]))
 			map(team.players.append,random.sample(self.strikers,team.dibujo[3]))
-			team.updateData()
+			team.sumData()
 		return team
 
 
@@ -108,21 +120,20 @@ class Driver:
 							map(team.players.append,centros)
 							map(team.players.append,delanteros)
 							team.dibujo = dibujo
-							team.updateData()
+							team.sumData()
 							self.teams_done += 1
 							if team.isValid():
-								#print team.players
 								yield team
 		
 
 if __name__ == "__main__":
 	driver = Driver()
 	toprank = 0
-
+	Team.id_start = driver.sacaUltimoIdTeam()
+	print Team.id_start
 	#for i in range(NUMTEAMS):
 	for team in driver.getBruteForceTeam():
 		#team = driver.getRandomizedTeam()
-		#team = driver.getBruteForceTeam()
 		print "%f;%f;%s;%d" % (team.price,team.rank,team.dibujo,driver.teams_done)
 		driver.saveTeam(team)
 		if team.rank > toprank:
