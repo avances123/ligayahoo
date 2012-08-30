@@ -108,12 +108,16 @@ class Driver:
 
 
 	def getBruteForceTeam(self):
+		x = 0
 		dibujos = [(1,3,4,3),(1,3,5,2),(1,4,3,3),(1,4,4,2)]
 		for dibujo in dibujos:
 			for porteros in itertools.combinations(self.goalkeepers,dibujo[0]):
 				for defensas in itertools.combinations(self.defences,dibujo[1]):
 					for centros in itertools.combinations(self.midfielders,dibujo[2]):
 						for delanteros in itertools.combinations(self.strikers,dibujo[3]):
+							x += 1
+							if x <= Team.id_start:
+								continue
 							team = Team()
 							team.players = []
 							map(team.players.append,porteros)
@@ -135,7 +139,7 @@ if __name__ == "__main__":
 	#for i in range(NUMTEAMS):
 	for team in driver.getBruteForceTeam():
 		#team = driver.getRandomizedTeam()
-		print "%f;%f;%s;%d" % (team.price,team.rank,team.dibujo,driver.teams_done)
+		print "%f;%f;%s;%d" % (team.price,team.rank,team.dibujo,team.id)
 		driver.saveTeam(team)
 		if team.rank > toprank:
 			toprank = team.rank
