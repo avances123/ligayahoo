@@ -21,4 +21,6 @@ class SuperligaYahooPipeline(object):
 			self.conn.commit()
 		except psycopg2.IntegrityError:
 			self.conn.rollback()
+			#self.cur.execute("UPDATE jugadores SET games_played = %s,lastweek_points=%s,point_average_total=%s,point_average_last3=%s,market_price=%s,total_points=%s,price_per_point=%s WHERE id=%s",(item['games_played'],item['lastweek_points'],item['point_average_total'],item['point_average_last3'],item['market_price'],item['total_points'],item['price_per_point']))
+			#self.conn.commit()
 		return item

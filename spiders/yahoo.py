@@ -10,9 +10,11 @@ class SuperligaYahooSpider(BaseSpider):
 	domain_name = "es.laliga.fantasysports.yahoo.com"
 	#start_urls = ["http://es.laliga.fantasysports.yahoo.com/football/players/00000","http://es.laliga.fantasysports.yahoo.com/football/players/19054"]
 	def start_requests(self):
-		for i in range(0,100000):
-		#for i in range(99126,99128):
-			yield Request('http://es.laliga.fantasysports.yahoo.com/football/players/%05d' % i, self.parse,meta={'id':i})
+		#for i in range(0,100000):
+		with open('/home/fabio/src/superliga_yahoo/superliga_yahoo/id.txt') as f:
+			for i in f.readlines():
+				j = int(i)
+				yield Request('http://es.laliga.fantasysports.yahoo.com/football/players/%d' % j, self.parse,meta={'id':j})
 	
 
 	def parse(self, response):
@@ -32,8 +34,9 @@ class SuperligaYahooSpider(BaseSpider):
 		item['price_per_point'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[3]/tbody/tr[2]/td[2]/text()').extract()[0].strip()
 		item['point_average_last3'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[3]/tbody/tr[3]/td/span/text()').extract()[0].strip()
 		item['point_average_total'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[3]/tbody/tr[4]/td[2]/text()').extract()[0].strip()
-		item['lastweek_points'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[3]/tbody/tr[4]/td[1]/text()').extract()[0].strip()
-		#item['position'] = 
+		#item['lastweek_points'] = hxs.select('//*[@id="yspmain"]/div/div/div/div[2]/table[3]/tbody/tr[4]/td[1]/text()').extract()[0].strip()
+		item['lastweek_points'] = None
+
 		equipo_posicion = hxs.select('//*[@id="yspmain"]/div/div/div/div[1]/div[2]/h4/text()').extract()[0].strip()
 		equipo,posicion = equipo_posicion.split(',')
 		equipo = equipo.strip()
