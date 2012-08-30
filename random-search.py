@@ -83,7 +83,7 @@ class Driver:
 			self.teams_done += 1
 			team.players = []
 			#print "Equipo falso precio: %d" % team.price
-			dibujos = [(1,4,3,3),(1,4,4,2),(1,3,4,3),(1,3,5,2)]
+			dibujos = [(1,3,5,2),(1,4,3,3),(1,4,4,2),(1,3,4,3)]
 			team.dibujo = random.choice(dibujos)
 			map(team.players.append,random.sample(self.goalkeepers,team.dibujo[0]))
 			map(team.players.append,random.sample(self.defences,team.dibujo[1]))
