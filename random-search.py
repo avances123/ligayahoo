@@ -34,7 +34,7 @@ class Team:
 	def isValid(self):
 		if self.price > 100:
 			return False
-		if self.rank < 110:
+		if self.rank < 115:
 			return False
 		if len(self.players) != 11:
 			return False
