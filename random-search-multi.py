@@ -1,6 +1,7 @@
 # con 10000000 rank = 116
 
 import psycopg2,random,itertools,time
+from multiprocessing import Process,Pool
 
 NUMTEAMS=20000000
 
@@ -34,7 +35,7 @@ class Team:
 	def isValid(self):
 		if self.price > 100:
 			return False
-		if self.rank < 115:
+		if self.rank < 118:
 			return False
 #		if len(self.players) != 11:
 #			return False
@@ -116,7 +117,7 @@ class Driver:
 						x = x + 1
 
 						if x % 10000000 == 0:
-							print time.time() - start
+							print dibujo,time.time() - start
 							start = time.time()
 
 						if x <= Team.id_start + 4:
@@ -134,19 +135,19 @@ class Driver:
 
 						if team.isValid():
 							yield team
-		
+
+
+
+def saveTeamMulti(dibujo):
+	for team in driver.getBruteForceTeam(dibujo):
+		print "%f;%f;%s;%d" % (team.price,team.rank,team.dibujo,team.id)
+		driver.saveTeam(team)
+
 
 if __name__ == "__main__":
 	driver = Driver()
-	toprank = 0
-	Team.id_start = driver.sacaUltimoIdTeam()
-	print Team.id_start
-	#for i in range(NUMTEAMS):
-	for team in driver.getBruteForceTeam((1,4,3,3)):
-		#team = driver.getRandomizedTeam()
-		print "%f;%f;%s;%d" % (team.price,team.rank,team.dibujo,team.id)
-		driver.saveTeam(team)
-		if team.rank > toprank:
-			toprank = team.rank
-	print "%d,%f" % (driver.teams_done,toprank)
+	#Team.id_start = driver.sacaUltimoIdTeam()
+	print "Empezando en la iteracion: %d" % Team.id_start
+	p = Pool(4)
+	p.map(saveTeamMulti,[(1,3,4,3),(1,4,3,3),(1,3,5,2),(1,4,4,2)])
 	driver.close()

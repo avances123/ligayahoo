@@ -35,7 +35,7 @@ SET default_with_oids = false;
 CREATE TABLE equipos (
     dibujo character varying,
     precio real,
-    id integer NOT NULL,
+    id bigint NOT NULL,
     rendimiento real,
     jugador integer NOT NULL
 );
@@ -571,7 +571,7 @@ COPY jugadores (id, name, games_played, lastweek_points, point_average_total, po
 --
 
 ALTER TABLE ONLY equipos
-    ADD CONSTRAINT equipos_pkey PRIMARY KEY (id, jugador);
+    ADD CONSTRAINT equipos_pkey PRIMARY KEY (id, jugador,dibujo);
 
 
 --
