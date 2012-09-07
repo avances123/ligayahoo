@@ -8,7 +8,7 @@ import psycopg2
 class SuperligaYahooPipeline(object):
 	
 	def open_spider(self,spider):
-		self.conn = psycopg2.connect("dbname=ligayahoo user=fabio")
+		self.conn = psycopg2.connect("dbname=ligayahoo user=postgres")
 		self.cur  = self.conn.cursor()
 
 	def close_spider(self,spider):
