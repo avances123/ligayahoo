@@ -34,10 +34,10 @@ class Team:
 	def isValid(self):
 		if self.price > 100:
 			return False
-		if self.rank < 110:
+		if self.rank < 115:
 			return False
-		if len(self.players) != 11:
-			return False
+#		if len(self.players) != 11:
+#			return False
 		return True
 
 	def sumData(self):
@@ -93,7 +93,6 @@ class Driver:
 	def getRandomizedTeam(self):
 		team = Team()
 		while team.isValid() is False:
-			self.teams_done += 1
 			team.players = []
 			#print "Equipo falso precio: %d" % team.price
 			dibujos = [(1,3,5,2),(1,4,3,3),(1,4,4,2),(1,3,4,3)]
@@ -107,34 +106,34 @@ class Driver:
 
 
 
-	def getBruteForceTeam(self):
+	def getBruteForceTeam(self,dibujo):
 		x = 0
 		start = time.time()
-		dibujos = [(1,3,4,3),(1,3,5,2),(1,4,3,3),(1,4,4,2)]
-		for dibujo in dibujos:
-			for porteros in itertools.combinations(self.goalkeepers,dibujo[0]):
-				for defensas in itertools.combinations(self.defences,dibujo[1]):
-					for centros in itertools.combinations(self.midfielders,dibujo[2]):
-						for delanteros in itertools.combinations(self.strikers,dibujo[3]):
-							x += 1
-							if x <= Team.id_start:
-								continue
-							team = Team()
-							team.players = []
-							map(team.players.append,porteros)
-							map(team.players.append,defensas)
-							map(team.players.append,centros)
-							map(team.players.append,delanteros)
-							team.dibujo = dibujo
-							team.sumData()
-							self.teams_done += 1
-						
-							if x % 1000000 == 0:
-								print time.time() - start
-								start = time.time()
+		for porteros in itertools.combinations(self.goalkeepers,dibujo[0]):
+			for defensas in itertools.combinations(self.defences,dibujo[1]):
+				for centros in itertools.combinations(self.midfielders,dibujo[2]):
+					for delanteros in itertools.combinations(self.strikers,dibujo[3]):
+						x = x + 1
 
-							if team.isValid():
-								yield team
+						if x % 10000000 == 0:
+							print time.time() - start
+							start = time.time()
+
+						if x <= Team.id_start + 4:
+							continue
+
+						team = Team()
+						team.players = []
+						map(team.players.append,porteros)
+						map(team.players.append,defensas)
+						map(team.players.append,centros)
+						map(team.players.append,delanteros)
+						team.dibujo = dibujo
+						team.sumData()
+					
+
+						if team.isValid():
+							yield team
 		
 
 if __name__ == "__main__":
@@ -143,7 +142,7 @@ if __name__ == "__main__":
 	Team.id_start = driver.sacaUltimoIdTeam()
 	print Team.id_start
 	#for i in range(NUMTEAMS):
-	for team in driver.getBruteForceTeam():
+	for team in driver.getBruteForceTeam((1,4,3,3)):
 		#team = driver.getRandomizedTeam()
 		print "%f;%f;%s;%d" % (team.price,team.rank,team.dibujo,team.id)
 		driver.saveTeam(team)

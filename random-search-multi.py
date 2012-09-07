@@ -7,6 +7,7 @@ NUMTEAMS=20000000
 MAX_PRICE = 100
 MIN_RANK = 125
 
+
 class Player:
 	"""
 	Un jugador de la liga yahoo
@@ -49,7 +50,6 @@ class Team:
 #			return False
 		return True
 
-	
 
 
 class Driver:
