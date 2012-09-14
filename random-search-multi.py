@@ -5,7 +5,7 @@ from multiprocessing import Process,Pool
 
 NUMTEAMS=20000000
 MAX_PRICE = 100
-MIN_RANK = 125
+MIN_RANK = 140
 
 
 class Player:
@@ -110,7 +110,7 @@ class Driver:
 						x = x + 1
 
 						if x % 10000000 == 0:
-							print dibujo,time.time() - start
+							print dibujo,time.time() - start,x/10000000
 							start = time.time()
 
 						if x <= iteracion + 2:

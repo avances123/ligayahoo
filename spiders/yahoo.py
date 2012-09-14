@@ -7,17 +7,19 @@ from superliga_yahoo.items import SuperligaYahooItem
 
 class SuperligaYahooSpider(BaseSpider):
 	name = 'yahoo'
+	DOWNLOAD_DELAY = 2
+
 	domain_name = "es.laliga.fantasysports.yahoo.com"
 	#start_urls = ["http://es.laliga.fantasysports.yahoo.com/football/players/00000","http://es.laliga.fantasysports.yahoo.com/football/players/19054"]
 
 	def start_requests(self):
-		#with open('/home/fabio/src/superliga_yahoo/superliga_yahoo/id.txt') as f:
-		#	for i in f.readlines():
-		#		j = int(i)
-		#		yield Request('http://es.laliga.fantasysports.yahoo.com/football/players/%d' % j, self.parse,meta={'id':j})
+		with open('/home/fabio/src/superliga_yahoo/superliga_yahoo/id.txt') as f:
+			for i in f.readlines():
+				j = int(i)
+				yield Request('http://es.laliga.fantasysports.yahoo.com/football/players/%d' % j, self.parse,meta={'id':j})
 
-		for i in range(0,100000):
-			yield Request('http://es.laliga.fantasysports.yahoo.com/football/players/%d' % i, self.parse,meta={'id':i})
+		#for i in range(0,69854):
+		#	yield Request('http://es.laliga.fantasysports.yahoo.com/football/players/%d' % i, self.parse,meta={'id':i})
 	
 
 	def parse(self, response):
