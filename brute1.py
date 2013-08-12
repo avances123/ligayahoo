@@ -5,7 +5,7 @@ from multiprocessing import Process,Pool
 
 NUMTEAMS=20000000
 MAX_PRICE = 100
-MIN_RANK = 140
+MIN_RANK = 1
 
 
 class Player:
@@ -103,10 +103,10 @@ class Driver:
 	def getBruteForceTeam(self,dibujo,iteracion):
 		x = 0
 		start = time.time()
-		for porteros in itertools.combinations(self.goalkeepersr,dibujo[0]):
-			for defensas in itertools.combinations(self.defencesr,dibujo[1]):
-				for centros in itertools.combinations(self.midfieldersr,dibujo[2]):
-					for delanteros in itertools.combinations(self.strikersr,dibujo[3]):
+		for delanteros in itertools.combinations(self.strikersr,dibujo[3]):
+			for porteros in itertools.combinations(self.goalkeepersr,dibujo[0]):
+				for defensas in itertools.combinations(self.defencesr,dibujo[1]):
+					for centros in itertools.combinations(self.midfieldersr,dibujo[2]):
 						x = x + 1
 
 						if x % 10000000 == 0:
@@ -124,7 +124,7 @@ class Driver:
 						map(team.players.append,delanteros)
 						team.dibujo = dibujo
 					
-
+						yield team
 						if team.isValid():
 							yield team
 

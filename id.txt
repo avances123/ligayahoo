@@ -1,562 +1,528 @@
-99127
-96736
-95786
-90728
-90479
-90328
-89046
-88210
-86169
-84471
-81045
-80795
-80590
-80287
-80209
-78878
-78333
-77390
-76650
-76640
-76620
-76558
-76557
-76555
-73684
-70428
-67527
-61517
-60772
-60315
-60104
-58926
-56680
-56270
-55336
-55171
-55136
-55117
-54806
-54176
-53048
-52496
-52356
-52355
-51968
-51897
-51732
-51527
-49735
-49579
-48854
-48847
-48771
-47665
-46898
-45825
-44336
-42892
-42868
-42849
-42839
-42534
-41215
-40835
-40405
-40272
-40270
-40232
-39991
-39992
-39805
-39563
-39498
-39441
-38560
-38499
-38411
-38401
-38394
-37607
-37512
-37265
-37169
-33148
-32281
-28590
-28289
-28160
-28112
-27701
-27462
-26768
-20319
-20310
-20301
-20151
-20056
-19927
-19773
-19525
-19075
-19054
-18681
-18595
-18522
-18507
-17926
-17804
-17740
-17622
-17517
-17512
-17378
-17216
-17131
-16872
-16099
-15780
-15312
-15288
-15269
-14937
-14725
-14464
-14412
-14393
-12496
-12237
-11875
-10991
-10929
-10316
- 8679
- 8172
- 7088
- 6107
- 5882
- 5816
- 4047
- 3508
-98452
-96445
-96234
-96084
-95677
-95545
-95461
-93338
-93127
-92493
-92483
-92187
-91393
-91373
-91338
-90763
-90761
-90716
-90657
-90573
-90512
-90513
-90482
-90477
-90408
-90402
-90401
-90407
-90392
-90390
-90388
-90318
-90152
-90116
-89592
-89402
-89335
-89274
-89238
-89217
-89171
-88952
-88925
-88888
-88885
-88802
-88794
-88790
-88782
-88754
-88505
-88484
-88482
-88481
-88479
-88480
-88477
-88454
-88280
-88271
-88209
-88158
-87940
-87744
-86989
-86876
-86398
-86380
-86172
-86157
-86153
-86136
-84372
-84086
-84076
-83979
-83564
-82964
-82787
-82451
-81735
-81138
-80956
-80840
-80791
-80789
-80434
-80432
-80285
-80153
-80077
-79864
-79862
-78874
-78812
-78627
-78324
-78315
-77418
-76688
-76642
-76561
-76559
-76554
-76510
-76508
-76298
-76127
-76012
-71700
-71679
-69877
-69857
-69855
-67570
-67184
-61975
-61789
-61595
-61598
-61559
-61558
-60835
-60706
-60630
-60629
-60323
-60012
-59981
-59980
-59945
-59946
-59846
-59840
-59839
-59339
-59140
-59062
-59041
-58906
-58876
-58498
-58476
-57134
-57114
-56916
-56828
-56492
-56464
-56448
-56424
-56419
-56271
-56249
-56225
-55830
-55412
-55361
-55356
-55354
-55340
-55329
-55317
-55302
-55268
-55262
-55185
-55179
-55175
-55170
-55166
-54805
-54792
-54766
-54513
-54371
-54323
-54322
-54301
-54248
-54194
-54175
-54164
-54104
-53843
-52698
-52461
-52296
-52026
-51952
-51948
-51911
-51907
-51860
-51803
-51792
-51728
-51580
-51310
-51273
-51271
-50279
-49952
-49876
-49656
-49580
-49484
-49464
-49410
-49370
-49309
-49267
-49266
-49214
-49097
-48853
-48772
-48439
-47645
-47313
-47094
-46998
-46525
-46497
-46009
-45019
-44849
-44677
-44354
-43693
-42995
-42871
-42854
-42844
-42676
-42430
-41795
-40982
-40908
-40837
-40836
-40792
-40789
-40694
-40559
-40406
-40389
-40390
-40380
-40275
-40269
-39816
-39790
-39377
-39313
-38747
-38569
-38519
-38400
-38173
-38101
-38093
-37793
-37752
-37605
-37573
-37267
-37198
-37196
-37064
-37055
-37014
-36996
-36968
-36803
-34703
-33668
-33588
-32644
-32610
-32488
-32260
-28690
-28644
-28606
-28456
-28455
-28411
-28291
-28170
-28162
-27692
-27672
-26921
-26917
-26906
-26904
-26726
-21250
-21091
-21059
-21055
-20680
-20663
-20632
-20599
-20578
-20468
-20399
-20368
-20311
-20225
-20150
-20112
-20062
-20057
-19975
-19831
-19805
-19760
-19755
-19606
-19568
-19526
-19524
-19074
-18759
-18495
-18498
-18492
-18490
-18473
-18280
-18278
-18221
-18003
-17973
-17911
-17906
-17905
-17878
-17871
-17861
-17827
-17791
-17787
-17679
-17568
-17374
-17368
-17279
-17268
-17238
-17224
-16738
-16149
-16053
-16049
-16021
-15868
-15843
-15139
-14726
-14729
-14549
-14480
-14454
-14372
-14095
-13927
-13268
-13241
-13135
-12787
-12512
-12488
-12006
-11842
-11712
-11656
-11602
-11601
-11525
-11514
-11511
-11131
-10979
-10917
-10647
-10644
-10390
-10343
-10315
-10144
-9716
-8678
-8510
-8489
-8442
-8056
-7147
-6972
-6732
-6113
-5957
-5937
-5927
-5905
-5863
-5842
-5839
-5825
-5821
-5818
-5813
-5790
-5053
-5021
-4232
-4154
-4025
-1037
+Link,URL
+L. Messi,/fantasy/la-liga/details/19054
+C. Ronaldo,/fantasy/la-liga/details/14937
+C. Vela,/fantasy/la-liga/details/38401
+C. Martínez,/fantasy/la-liga/details/42430
+Pizzi,/fantasy/la-liga/details/80590
+Piti,/fantasy/la-liga/details/20056
+R. Castro,/fantasy/la-liga/details/20680
+P. Ebert,/fantasy/la-liga/details/37607
+M. Susaeta,/fantasy/la-liga/details/47665
+Pedro León,/fantasy/la-liga/details/42839
+Filipe Luis,/fantasy/la-liga/details/18595
+G. dos Santos,/fantasy/la-liga/details/40275
+S. Escudero,/fantasy/la-liga/details/62991
+I. Rakitic,/fantasy/la-liga/details/34703
+Weligton,/fantasy/la-liga/details/41215
+D. Godín,/fantasy/la-liga/details/32281
+A. Griezmann,/fantasy/la-liga/details/76650
+G. Siqueira,/fantasy/la-liga/details/27692
+K. Benzema,/fantasy/la-liga/details/19927
+Fábio Coentrão,/fantasy/la-liga/details/46525
+D. Colotto,/fantasy/la-liga/details/53843
+E. Armenteros,/fantasy/la-liga/details/55329
+M. Özil,/fantasy/la-liga/details/37605
+Riki,/fantasy/la-liga/details/17517
+M. Demichelis,/fantasy/la-liga/details/15312
+Jonas,/fantasy/la-liga/details/53048
+T. Courtois,/fantasy/la-liga/details/60772
+Koke,/fantasy/la-liga/details/77390
+Juanfran,/fantasy/la-liga/details/17804
+J. Gámez,/fantasy/la-liga/details/27462
+Xabi Prieto,/fantasy/la-liga/details/17512
+F. Fábregas,/fantasy/la-liga/details/17878
+Iñigo Martínez,/fantasy/la-liga/details/90318
+J. Alba,/fantasy/la-liga/details/52356
+Juanfran,/fantasy/la-liga/details/5825
+Á. Cejudo,/fantasy/la-liga/details/71700
+I. Agirretxe,/fantasy/la-liga/details/20151
+J. Molina,/fantasy/la-liga/details/76555
+J. Reyes,/fantasy/la-liga/details/10343
+Nacho,/fantasy/la-liga/details/14726
+Javi López,/fantasy/la-liga/details/78333
+Mario,/fantasy/la-liga/details/11525
+Ander,/fantasy/la-liga/details/59846
+Dani Alves,/fantasy/la-liga/details/15780
+A. Illarramendi,/fantasy/la-liga/details/84086
+Isco,/fantasy/la-liga/details/80209
+Miranda,/fantasy/la-liga/details/52496
+M. San José,/fantasy/la-liga/details/42995
+Héctor Moreno,/fantasy/la-liga/details/49656
+I. Gómez,/fantasy/la-liga/details/84471
+L. Baptistao,/fantasy/la-liga/details/109269
+M. Balenziaga,/fantasy/la-liga/details/56680
+A. Rukavina,/fantasy/la-liga/details/42534
+Óscar,/fantasy/la-liga/details/11656
+Diego Costa,/fantasy/la-liga/details/18507
+A. Sánchez,/fantasy/la-liga/details/37265
+C. Bravo,/fantasy/la-liga/details/33148
+Á. Di María,/fantasy/la-liga/details/46497
+R. Trashorras,/fantasy/la-liga/details/10991
+H. Postiga,/fantasy/la-liga/details/10929
+J. Verdú,/fantasy/la-liga/details/19075
+Ricardo Costa,/fantasy/la-liga/details/16738
+M. González,/fantasy/la-liga/details/19831
+A. De la Bella,/fantasy/la-liga/details/55336
+Adriano,/fantasy/la-liga/details/19773
+V. Iborra,/fantasy/la-liga/details/54513
+V. Antunes,/fantasy/la-liga/details/39621
+J. Rueda,/fantasy/la-liga/details/56270
+Nolito,/fantasy/la-liga/details/86173
+Pedro,/fantasy/la-liga/details/49579
+A. Fernández,/fantasy/la-liga/details/54806
+Cicinho,/fantasy/la-liga/details/61517
+A. Iraola,/fantasy/la-liga/details/17216
+Hugo Mallo,/fantasy/la-liga/details/76508
+D. Villa,/fantasy/la-liga/details/17279
+S. Ramos,/fantasy/la-liga/details/17861
+A. Iniesta,/fantasy/la-liga/details/12237
+Xavi,/fantasy/la-liga/details/5816
+P. Morales,/fantasy/la-liga/details/50906
+Oier,/fantasy/la-liga/details/56916
+Willy Caballero,/fantasy/la-liga/details/20310
+A. Túñez,/fantasy/la-liga/details/78878
+Damiá,/fantasy/la-liga/details/19074
+Sergio García,/fantasy/la-liga/details/17679
+Pepe,/fantasy/la-liga/details/18522
+F. Fazio,/fantasy/la-liga/details/40792
+Beñat,/fantasy/la-liga/details/38394
+Ó. De Marcos,/fantasy/la-liga/details/59062
+A. Arribas,/fantasy/la-liga/details/80285
+G. Piqué,/fantasy/la-liga/details/18221
+B. Ekiza,/fantasy/la-liga/details/90479
+A. Aduriz,/fantasy/la-liga/details/14464
+A. Turan,/fantasy/la-liga/details/39441
+É. Banega,/fantasy/la-liga/details/49309
+D. Navarro,/fantasy/la-liga/details/11601
+G. Cabral,/fantasy/la-liga/details/55117
+Tito,/fantasy/la-liga/details/73684
+Mikel Rico,/fantasy/la-liga/details/76558
+G. Iraizoz,/fantasy/la-liga/details/14725
+M. Flaño,/fantasy/la-liga/details/18492
+João Pereira,/fantasy/la-liga/details/26904
+V. Valdés,/fantasy/la-liga/details/12496
+Víctor Pérez,/fantasy/la-liga/details/76557
+Nyom,/fantasy/la-liga/details/67527
+A. Colunga,/fantasy/la-liga/details/52355
+C. Tello,/fantasy/la-liga/details/86169
+G. Castro,/fantasy/la-liga/details/45825
+Víctor Sánchez,/fantasy/la-liga/details/49267
+Fernando Navarro,/fantasy/la-liga/details/7088
+Manucho,/fantasy/la-liga/details/49410
+Wakaso,/fantasy/la-liga/details/55179
+Coke,/fantasy/la-liga/details/55268
+D. Castro,/fantasy/la-liga/details/28291
+M. Moyá,/fantasy/la-liga/details/16872
+J. Mathieu,/fantasy/la-liga/details/14095
+Javi Chica,/fantasy/la-liga/details/21055
+Dani Hernández,/fantasy/la-liga/details/76559
+Javi Fuego,/fantasy/la-liga/details/21250
+Kike Sola,/fantasy/la-liga/details/42676
+V. Guaita,/fantasy/la-liga/details/40836
+L. Vyntra,/fantasy/la-liga/details/18649
+M. de las Cuevas,/fantasy/la-liga/details/38397
+D. Zurutuza,/fantasy/la-liga/details/54371
+G. Medel,/fantasy/la-liga/details/48853
+A. Laporte,/fantasy/la-liga/details/146941
+A. Bueno,/fantasy/la-liga/details/46009
+L. Modric,/fantasy/la-liga/details/37055
+S. Busquets,/fantasy/la-liga/details/54104
+Roberto,/fantasy/la-liga/details/51803
+Omar Ramos,/fantasy/la-liga/details/76640
+José Carlos,/fantasy/la-liga/details/60104
+J. Valera,/fantasy/la-liga/details/17378
+A. Rami,/fantasy/la-liga/details/41795
+Paulao,/fantasy/la-liga/details/39991
+Kiko Casilla,/fantasy/la-liga/details/39790
+Á. Arbeloa,/fantasy/la-liga/details/18759
+Gabi,/fantasy/la-liga/details/17871
+M. Valiente,/fantasy/la-liga/details/40835
+K. Navas,/fantasy/la-liga/details/28411
+J. Aurtenetxe,/fantasy/la-liga/details/80153
+B. Oubiña,/fantasy/la-liga/details/12512
+Alberto Moreno,/fantasy/la-liga/details/100059
+Víctor Álvarez,/fantasy/la-liga/details/92493
+Rubén García,/fantasy/la-liga/details/130026
+Y. El-Arabi,/fantasy/la-liga/details/58926
+I. Casillas,/fantasy/la-liga/details/4232
+J. Capdevila,/fantasy/la-liga/details/5839
+Nacho,/fantasy/la-liga/details/90394
+R. Lago,/fantasy/la-liga/details/40272
+I. Camacho,/fantasy/la-liga/details/49735
+A. Guardado,/fantasy/la-liga/details/37064
+A. Gálvez,/fantasy/la-liga/details/90573
+Marcelo,/fantasy/la-liga/details/39563
+Jordi Figueras,/fantasy/la-liga/details/58368
+Rafa,/fantasy/la-liga/details/17827
+X. Alonso,/fantasy/la-liga/details/3508
+P. Piatti,/fantasy/la-liga/details/51271
+Eliseu,/fantasy/la-liga/details/39313
+F. Silva,/fantasy/la-liga/details/100981
+A. Amaya,/fantasy/la-liga/details/16149
+Míchel,/fantasy/la-liga/details/58876
+Chris,/fantasy/la-liga/details/17131
+Andrés,/fantasy/la-liga/details/51792
+Kaká,/fantasy/la-liga/details/13135
+M. Montoya,/fantasy/la-liga/details/86153
+F. Portillo,/fantasy/la-liga/details/80795
+S. Feghouli,/fantasy/la-liga/details/44336
+A. Cissokho,/fantasy/la-liga/details/44354
+C. Sapunaru,/fantasy/la-liga/details/40982
+Javi Guerra,/fantasy/la-liga/details/40389
+Nélson,/fantasy/la-liga/details/26906
+Alexis,/fantasy/la-liga/details/14729
+Jaime,/fantasy/la-liga/details/55171
+Lolo,/fantasy/la-liga/details/28455
+F. Gago,/fantasy/la-liga/details/19975
+Pape Diop,/fantasy/la-liga/details/27672
+Raúl García,/fantasy/la-liga/details/18498
+R. Santa Cruz,/fantasy/la-liga/details/5053
+Diego Alves,/fantasy/la-liga/details/46898
+C. Stuani,/fantasy/la-liga/details/49464
+A. Lopo,/fantasy/la-liga/details/5863
+Sisi,/fantasy/la-liga/details/42849
+Osorio,/fantasy/la-liga/details/122628
+Á. García,/fantasy/la-liga/details/165682
+Quini,/fantasy/la-liga/details/106671
+R. Rusescu,/fantasy/la-liga/details/62079
+Oriol Riera,/fantasy/la-liga/details/80549
+Raúl Rodríguez,/fantasy/la-liga/details/90116
+Dani Aquino,/fantasy/la-liga/details/49687
+Quique,/fantasy/la-liga/details/56271
+David Rodríguez,/fantasy/la-liga/details/54323
+Miku,/fantasy/la-liga/details/56424
+Rubén Suárez,/fantasy/la-liga/details/54520
+K. Gameiro,/fantasy/la-liga/details/42779
+J. Perbet,/fantasy/la-liga/details/45048
+Coro,/fantasy/la-liga/details/17690
+N. Castillo,/fantasy/la-liga/details/11043
+D. Güiza,/fantasy/la-liga/details/5957
+Ikechi,/fantasy/la-liga/details/19342
+D. Barral,/fantasy/la-liga/details/28299
+J. Larrivey,/fantasy/la-liga/details/42884
+K. Akinsola,/fantasy/la-liga/details/59850
+I. Uche,/fantasy/la-liga/details/38180
+B. Powel,/fantasy/la-liga/details/28610
+Óscar Díaz,/fantasy/la-liga/details/53473
+Charles,/fantasy/la-liga/details/86349
+Thievy,/fantasy/la-liga/details/95461
+A. Luna,/fantasy/la-liga/details/98848
+H. Seferovic,/fantasy/la-liga/details/60841
+B. Anderson,/fantasy/la-liga/details/165573
+Vitolo,/fantasy/la-liga/details/86399
+Jonathan,/fantasy/la-liga/details/89554
+Isaac Cuenca,/fantasy/la-liga/details/90388
+Dani Nieto,/fantasy/la-liga/details/102370
+J. Dongou,/fantasy/la-liga/details/106464
+Braian Rodríguez,/fantasy/la-liga/details/140739
+Ariel Núñez,/fantasy/la-liga/details/148049
+J. Morales,/fantasy/la-liga/details/165375
+Chuli,/fantasy/la-liga/details/107639
+C. Bacca,/fantasy/la-liga/details/111274
+Jesé,/fantasy/la-liga/details/93127
+Borja Bastón,/fantasy/la-liga/details/83091
+Neymar,/fantasy/la-liga/details/61278
+Juanmi,/fantasy/la-liga/details/80287
+D. López,/fantasy/la-liga/details/16021
+Álex López,/fantasy/la-liga/details/83979
+M. Krohn-Dehli,/fantasy/la-liga/details/16099
+Juan Rodríguez,/fantasy/la-liga/details/14549
+P. Malickou Diakhaté,/fantasy/la-liga/details/32488
+S. Canales,/fantasy/la-liga/details/56448
+R. Varane,/fantasy/la-liga/details/90152
+T. Pina,/fantasy/la-liga/details/80956
+C. Peña,/fantasy/la-liga/details/54176
+Jonny,/fantasy/la-liga/details/114128
+N. Karabelas,/fantasy/la-liga/details/48439
+D. Parejo,/fantasy/la-liga/details/51952
+S. Khedira,/fantasy/la-liga/details/39816
+Pinto,/fantasy/la-liga/details/5821
+J. Mascherano,/fantasy/la-liga/details/32644
+Simão,/fantasy/la-liga/details/5818
+P. Trochowski,/fantasy/la-liga/details/16049
+M. Bergara,/fantasy/la-liga/details/20150
+F. Orellana,/fantasy/la-liga/details/48854
+D. Suárez,/fantasy/la-liga/details/99005
+F. Ferreira,/fantasy/la-liga/details/78687
+X. Etxeita,/fantasy/la-liga/details/58637
+M. Musacchio,/fantasy/la-liga/details/57527
+D. Cisma,/fantasy/la-liga/details/42854
+D. Carriço,/fantasy/la-liga/details/46479
+J. Loties,/fantasy/la-liga/details/44312
+Jaume Costa,/fantasy/la-liga/details/58792
+G. Béranger,/fantasy/la-liga/details/51729
+L. Cabrera,/fantasy/la-liga/details/64662
+I. El Adoua,/fantasy/la-liga/details/62409
+D. Mateos,/fantasy/la-liga/details/59982
+Dídac Vilá,/fantasy/la-liga/details/59790
+Rafita,/fantasy/la-liga/details/17922
+M. Torsiglieri,/fantasy/la-liga/details/57411
+Edu Albácar,/fantasy/la-liga/details/54149
+David De Coz,/fantasy/la-liga/details/49208
+Lombán,/fantasy/la-liga/details/49360
+I. Echaide,/fantasy/la-liga/details/76298
+H. Pellerano,/fantasy/la-liga/details/51226
+Christian,/fantasy/la-liga/details/38544
+Samuel,/fantasy/la-liga/details/55166
+M. Angeleri,/fantasy/la-liga/details/55658
+S. Dubarbier,/fantasy/la-liga/details/56342
+S. Pelegrín,/fantasy/la-liga/details/55341
+N. Pareja,/fantasy/la-liga/details/37788
+Heinz,/fantasy/la-liga/details/41925
+Sidnei,/fantasy/la-liga/details/53142
+Sergi Gómez,/fantasy/la-liga/details/86151
+Á. Trujillo,/fantasy/la-liga/details/87802
+J. Casado,/fantasy/la-liga/details/88476
+Alcatraz,/fantasy/la-liga/details/150296
+Z. Bergdich,/fantasy/la-liga/details/91964
+Giménez,/fantasy/la-liga/details/151883
+C. Planas,/fantasy/la-liga/details/86152
+D. Figueiras,/fantasy/la-liga/details/92211
+E. Belkalem,/fantasy/la-liga/details/149786
+D. Carvajal,/fantasy/la-liga/details/88483
+E. Satrústegui,/fantasy/la-liga/details/90397
+U. Albizua,/fantasy/la-liga/details/90478
+F. Bagnack,/fantasy/la-liga/details/131400
+E. Saborit,/fantasy/la-liga/details/90481
+Salva Ruiz,/fantasy/la-liga/details/147263
+Douglas Santos,/fantasy/la-liga/details/120537
+J. Pulido,/fantasy/la-liga/details/88925
+Álex Pérez,/fantasy/la-liga/details/89345
+A. Coeff,/fantasy/la-liga/details/86599
+Fuentes,/fantasy/la-liga/details/78336
+A. Pantic,/fantasy/la-liga/details/94532
+R. Chen,/fantasy/la-liga/details/164079
+J. Oriol,/fantasy/la-liga/details/76613
+Carlos,/fantasy/la-liga/details/167539
+L. Galeano,/fantasy/la-liga/details/76461
+A. Oliver,/fantasy/la-liga/details/167758
+Mario,/fantasy/la-liga/details/76610
+Marcelo Silva,/fantasy/la-liga/details/77994
+J. Murillo,/fantasy/la-liga/details/107117
+J. Mojica,/fantasy/la-liga/details/152723
+Á. Arroyo,/fantasy/la-liga/details/82787
+U. García,/fantasy/la-liga/details/163711
+B. Jokic,/fantasy/la-liga/details/37413
+M. Bertrán,/fantasy/la-liga/details/11875
+C. Bellvis,/fantasy/la-liga/details/8678
+G. Kondogbia,/fantasy/la-liga/details/88754
+A. Song,/fantasy/la-liga/details/21091
+C. Gurpegi,/fantasy/la-liga/details/12787
+D. Buonanotte,/fantasy/la-liga/details/54805
+Á. Lafita,/fantasy/la-liga/details/26726
+Toño,/fantasy/la-liga/details/19805
+A. Arbilla,/fantasy/la-liga/details/87026
+Borja,/fantasy/la-liga/details/11602
+P. Ríos,/fantasy/la-liga/details/54194
+Juan Carlos,/fantasy/la-liga/details/88480
+R. Martínez,/fantasy/la-liga/details/71679
+Xavi Torres,/fantasy/la-liga/details/58906
+A. Iturraspe,/fantasy/la-liga/details/56249
+I. Muniain,/fantasy/la-liga/details/76012
+Álvaro,/fantasy/la-liga/details/89046
+M. Bermejo,/fantasy/la-liga/details/14412
+C. Rodríguez,/fantasy/la-liga/details/33668
+Jonathan Viera,/fantasy/la-liga/details/86398
+Álex Martínez,/fantasy/la-liga/details/89217
+N. El Zhar,/fantasy/la-liga/details/40380
+Salva Sevilla,/fantasy/la-liga/details/55354
+M. Bartra,/fantasy/la-liga/details/81138
+R. Loe,/fantasy/la-liga/details/89402
+Nino,/fantasy/la-liga/details/38101
+Rafa García,/fantasy/la-liga/details/77418
+Rafinha,/fantasy/la-liga/details/92819
+Héctor Yuste,/fantasy/la-liga/details/71692
+H. Pérez,/fantasy/la-liga/details/73109
+J. Espinosa,/fantasy/la-liga/details/94747
+J. Galán,/fantasy/la-liga/details/76658
+Pelayo,/fantasy/la-liga/details/90182
+Fidel,/fantasy/la-liga/details/83553
+Carles Gil,/fantasy/la-liga/details/88554
+Jota,/fantasy/la-liga/details/89274
+S. Ñíguez,/fantasy/la-liga/details/89335
+A. Molinero,/fantasy/la-liga/details/89336
+D. Cheryshev,/fantasy/la-liga/details/88489
+M. Lanzarote,/fantasy/la-liga/details/90017
+Bartlomiej Pawlowski,/fantasy/la-liga/details/85252
+Ilie,/fantasy/la-liga/details/86155
+Sergi Roberto,/fantasy/la-liga/details/86157
+Fran Rico,/fantasy/la-liga/details/88481
+O. Romeu,/fantasy/la-liga/details/78056
+Casemiro,/fantasy/la-liga/details/61256
+Abraham,/fantasy/la-liga/details/58907
+Rúper,/fantasy/la-liga/details/60835
+J. Matilla,/fantasy/la-liga/details/60629
+J. Aquino,/fantasy/la-liga/details/100866
+S. Samper,/fantasy/la-liga/details/106463
+Jairo,/fantasy/la-liga/details/105501
+Manu Trigueros,/fantasy/la-liga/details/98961
+Cedric,/fantasy/la-liga/details/78795
+E. Morán,/fantasy/la-liga/details/90486
+Aleix Vidal,/fantasy/la-liga/details/79627
+M. Tébar,/fantasy/la-liga/details/28084
+R. Azeez,/fantasy/la-liga/details/125945
+Corona,/fantasy/la-liga/details/3755
+J. Xumetra,/fantasy/la-liga/details/55387
+David López,/fantasy/la-liga/details/11129
+F. Cartabia,/fantasy/la-liga/details/167743
+L. Milla,/fantasy/la-liga/details/167742
+F. Soriano,/fantasy/la-liga/details/13557
+Sergio Pinto,/fantasy/la-liga/details/11844
+D. Generelo,/fantasy/la-liga/details/11698
+Moi Gómez,/fantasy/la-liga/details/109243
+Migue García,/fantasy/la-liga/details/116212
+Joan Román,/fantasy/la-liga/details/104538
+Kiko,/fantasy/la-liga/details/54484
+Cotán,/fantasy/la-liga/details/105112
+H. Yebda,/fantasy/la-liga/details/37752
+C. Lázaro,/fantasy/la-liga/details/51963
+Ruben Micael,/fantasy/la-liga/details/52698
+Javi Flores,/fantasy/la-liga/details/54343
+S. Mantecón,/fantasy/la-liga/details/54317
+R. Kitoko,/fantasy/la-liga/details/54235
+Verza,/fantasy/la-liga/details/54224
+Juanfran,/fantasy/la-liga/details/47645
+M. Marin,/fantasy/la-liga/details/41450
+T. Guarente,/fantasy/la-liga/details/39083
+Aarón,/fantasy/la-liga/details/38572
+E. Vilarchao,/fantasy/la-liga/details/150916
+M. Mesa,/fantasy/la-liga/details/163712
+Bruno,/fantasy/la-liga/details/39817
+Farinós,/fantasy/la-liga/details/7308
+Patric,/fantasy/la-liga/details/106461
+Suso,/fantasy/la-liga/details/103953
+M. Steinhöfer,/fantasy/la-liga/details/39639
+J. Quintillà,/fantasy/la-liga/details/106471
+Y. Sola,/fantasy/la-liga/details/167176
+A. Ivanschitz,/fantasy/la-liga/details/18560
+I. Afellay,/fantasy/la-liga/details/19568
+M. Acosta,/fantasy/la-liga/details/166958
+P. Mosquera,/fantasy/la-liga/details/60012
+A. Rivera,/fantasy/la-liga/details/6956
+R. Ibanez,/fantasy/la-liga/details/168390
+Juanma,/fantasy/la-liga/details/17224
+Cani,/fantasy/la-liga/details/17278
+L. Reyes,/fantasy/la-liga/details/140844
+D. Larsson,/fantasy/la-liga/details/48670
+S. Sánchez,/fantasy/la-liga/details/44849
+Á. Morata,/fantasy/la-liga/details/88482
+Recio,/fantasy/la-liga/details/91338
+Rubén Pérez,/fantasy/la-liga/details/59945
+G. Elustondo,/fantasy/la-liga/details/28644
+Lass,/fantasy/la-liga/details/95786
+Adrián,/fantasy/la-liga/details/39498
+C. Puyol,/fantasy/la-liga/details/5813
+Garabato,/fantasy/la-liga/details/90507
+S. Asenjo,/fantasy/la-liga/details/48772
+T. Mejías,/fantasy/la-liga/details/51942
+Javi Jiménez,/fantasy/la-liga/details/82673
+Yoel,/fantasy/la-liga/details/76510
+D. Mariño,/fantasy/la-liga/details/76611
+Julián,/fantasy/la-liga/details/88888
+Iago Herrerín,/fantasy/la-liga/details/89292
+Nacho Zabal,/fantasy/la-liga/details/88457
+Diego Rivas,/fantasy/la-liga/details/88570
+A. Cantero,/fantasy/la-liga/details/167177
+Jesús,/fantasy/la-liga/details/61789
+Diego García,/fantasy/la-liga/details/87795
+O. Karnezis,/fantasy/la-liga/details/48332
+Ó. Ustari,/fantasy/la-liga/details/37196
+Juan Carlos,/fantasy/la-liga/details/21046
+A. Riesgo,/fantasy/la-liga/details/17973
+G. Sara,/fantasy/la-liga/details/103126
+R. Blanco,/fantasy/la-liga/details/106539
+Y. Bounou,/fantasy/la-liga/details/120026
+Royo,/fantasy/la-liga/details/129787
+Manu Herrera,/fantasy/la-liga/details/39391
+Sergio Álvarez,/fantasy/la-liga/details/38400
+Oier,/fantasy/la-liga/details/49442
+S. Andersen,/fantasy/la-liga/details/14190
+F. Puñal,/fantasy/la-liga/details/10979
+Jonathan Vila,/fantasy/la-liga/details/39377
+A. Botía,/fantasy/la-liga/details/49266
+Paco Alcácer,/fantasy/la-liga/details/86876
+J. Ramalho,/fantasy/la-liga/details/80077
+H. Rodas,/fantasy/la-liga/details/50279
+Pedro López,/fantasy/la-liga/details/42844
+M. Torres,/fantasy/la-liga/details/40406
+Tiago,/fantasy/la-liga/details/15269
+J. Forlín,/fantasy/la-liga/details/54792
+I. Pérez,/fantasy/la-liga/details/78874
+D. Perquis,/fantasy/la-liga/details/15139
+D. Ifrán,/fantasy/la-liga/details/88209
+V. Ruiz,/fantasy/la-liga/details/51948
+Y. Brahimi,/fantasy/la-liga/details/51310
+R. Torres,/fantasy/la-liga/details/90402
+A. Barragán,/fantasy/la-liga/details/20399
+J. Codina,/fantasy/la-liga/details/17911
+Á. Rubio,/fantasy/la-liga/details/8489
+M. Suárez,/fantasy/la-liga/details/28160
+R. Baena,/fantasy/la-liga/details/78324
+P. Sarabia,/fantasy/la-liga/details/88484
+Simao,/fantasy/la-liga/details/48336
+Borja Gómez,/fantasy/la-liga/details/80434
+Javi Varas,/fantasy/la-liga/details/38560
+Rubén Pardo,/fantasy/la-liga/details/90328
+M. Iturra,/fantasy/la-liga/details/37267
+J. Gavilán,/fantasy/la-liga/details/20663
+Duda,/fantasy/la-liga/details/11511
+Chechu Dorado,/fantasy/la-liga/details/55185
+Nacho,/fantasy/la-liga/details/88477
+Rodri,/fantasy/la-liga/details/81748
+Nosa,/fantasy/la-liga/details/61975
+F. Mattioni,/fantasy/la-liga/details/52461
+Juanma Ortiz,/fantasy/la-liga/details/15843
+Beto,/fantasy/la-liga/details/44743
+J. Arizmendi,/fantasy/la-liga/details/17905
+J. Baraja,/fantasy/la-liga/details/11131
+J. Bernat,/fantasy/la-liga/details/105046
+M. Omwu,/fantasy/la-liga/details/90408
+Brayan Angulo,/fantasy/la-liga/details/47313
+F. Tissone,/fantasy/la-liga/details/19917
+Adrián,/fantasy/la-liga/details/40405
+Cala,/fantasy/la-liga/details/55412
+Manu del Moral,/fantasy/la-liga/details/28289
+Roger,/fantasy/la-liga/details/109702
+D. Perotti,/fantasy/la-liga/details/55340
+Ruiz de Galarreta,/fantasy/la-liga/details/96736
+A. Perea,/fantasy/la-liga/details/59339
+M. Lacen,/fantasy/la-liga/details/20578
+Ángel,/fantasy/la-liga/details/56419
+J. Pereira,/fantasy/la-liga/details/19525
+Óliver,/fantasy/la-liga/details/115860
+Aranda,/fantasy/la-liga/details/11842
+E. Zubikarai,/fantasy/la-liga/details/20112
+D. Dudka,/fantasy/la-liga/details/26917
+Babá,/fantasy/la-liga/details/49952
+Lluis Sastre,/fantasy/la-liga/details/40837
+José Ángel,/fantasy/la-liga/details/59140
+D. Cobeño,/fantasy/la-liga/details/11514
+M. Stevanovic,/fantasy/la-liga/details/82447
+Nono,/fantasy/la-liga/details/110510
+Cristian Alfonso,/fantasy/la-liga/details/90761
+H. Maduro,/fantasy/la-liga/details/18278
+D. Estrada,/fantasy/la-liga/details/40789
+Cristian Gómez,/fantasy/la-liga/details/90763
+Seba Fernández,/fantasy/la-liga/details/37512
+Albín,/fantasy/la-liga/details/38093
+Á. Vadillo,/fantasy/la-liga/details/93338
+I. Ansotegi,/fantasy/la-liga/details/28456
+Míchel,/fantasy/la-liga/details/51860
+E. Insúa,/fantasy/la-liga/details/40615
+V. Rama,/fantasy/la-liga/details/37889
+L. Cadamuro,/fantasy/la-liga/details/81735
+J. Camuñas,/fantasy/la-liga/details/14393
+L. Madinda,/fantasy/la-liga/details/96241
+Toni,/fantasy/la-liga/details/76620
+Rodri,/fantasy/la-liga/details/17374
+Javi Hervás,/fantasy/la-liga/details/96234
+Javi Ros,/fantasy/la-liga/details/61598
+M. Pallardó,/fantasy/la-liga/details/20057
+B. Rabello,/fantasy/la-liga/details/119534
+S. Tejera,/fantasy/la-liga/details/70428
+J. dos Santos,/fantasy/la-liga/details/76688
+G. Toquero,/fantasy/la-liga/details/51580
+D. Machís,/fantasy/la-liga/details/111133
+A. Fontás,/fantasy/la-liga/details/61559
+C. Kameni,/fantasy/la-liga/details/13268
+A. Adán,/fantasy/la-liga/details/59981

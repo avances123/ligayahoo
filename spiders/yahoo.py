@@ -6,13 +6,13 @@ from scrapy.http import Request,FormRequest
 from scrapy import log
 from scrapy.contrib.spiders import Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
-import keyring
+import keyring,csv
 
 from superliga_yahoo.items import SuperligaYahooItem
 
 class SuperligaYahooSpider(InitSpider):
 	name = 'yahoo'
-    user = 'avances123'
+	user = 'avances123'
 	domain_name = "es.eurosport.yahoo.com"
 	login_page = 'https://login.yahoo.com/config/login'
 	#start_urls = ['http://es.eurosport.yahoo.com/fantasy/la-liga/top']
@@ -22,8 +22,8 @@ class SuperligaYahooSpider(InitSpider):
 	    return Request(url=self.login_page, callback=self.login)
 	
 	def login(self, response):
-	    passwd = keyring.get_password('login.yahoo.com', user)
-	    return FormRequest.from_response(response,formdata={'login': user, 'passwd': passwd },callback=self.check_login_response)
+	    passwd = keyring.get_password('login.yahoo.com', self.user)
+	    return FormRequest.from_response(response,formdata={'login': self.user, 'passwd': passwd },callback=self.check_login_response)
 	
 	def check_login_response(self, response):
 	    if "fabio_rueda_carrascosa" in response.body:
@@ -34,9 +34,11 @@ class SuperligaYahooSpider(InitSpider):
 	        self.log("Bad times :(")
 	
 	def starts_requests(self):
-	    #for i in range(0,69854):
-	    for i in range(38400,38402):
-	        yield Request('http://es.eurosport.yahoo.com/fantasy/la-liga/details/%d' % i, self.parse,meta={'id':i})
+	    with open('/home/fabio/src/superliga_yahoo/superliga_yahoo/id.txt') as f:
+	        csvfile = csv.DictReader(f)
+	        for i in csvfile:
+	            j = i['URL']
+	            yield Request('http://es.eurosport.yahoo.com%s' % j, self.parse,meta={'id':1})
     
 
 

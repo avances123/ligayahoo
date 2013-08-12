@@ -15,4 +15,4 @@ DEFAULT_ITEM_CLASS = 'superliga_yahoo.items.SuperligaYahooItem'
 #ITEM_PIPELINES = ['superliga_yahoo.pipelines.SuperligaYahooPipeline']
 #REDIRECT_ENABLED = False
 DOWNLOAD_DELAY = 2
-
+LOG_FILE = 'log.txt'
