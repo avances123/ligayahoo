@@ -66,25 +66,35 @@ ALTER TABLE public.equipos OWNER TO postgres;
 
 CREATE TABLE jugadores (
     id integer NOT NULL,
-    name character varying,
-    games_played integer,
+    nombre character varying,
+    equipo character varying,
+    posicion character varying,
     dorsal integer,
-    shots_on_target integer,
-    lastweek_points real,
-    goals integer,
-    assists integer,
-    int_pass integer,
-    faults_rec integer,
-    faults_done integer,
-    yellow_cards integer,
-    red_cards integer,
-    market_price real,
-    total_points real,
-    "position" character varying,
-    team character varying,
-    valid boolean,
-    jornada character varying,
-    teamvs character varying
+	
+	jornada integer,
+
+    pj integer,
+    g integer,
+    asi integer,
+    gd integer,
+    gbp integer,
+    gp integer,
+    tp integer,
+    rs integer,
+    ag integer,
+    pi integer,
+    pc integer,
+    pf integer,
+    pa integer,
+    ata integer,
+    tb integer,
+    b integer,
+    fc integer,
+    fr integer,
+    br integer,
+    ta integer,
+    tr integer,
+    j integer
 );
 
 
