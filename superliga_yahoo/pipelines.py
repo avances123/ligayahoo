@@ -50,9 +50,10 @@ class SuperligaYahooPipeline(object):
 				    br ,
 				    ta ,
 				    tr ,
-				    j 
+				    j,
+				    puntos_totales,precio,forma,media,ptos_euro,pop
 				) 
-				VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
+				VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
 				(
 					item['id'],
 					item['nombre'],
@@ -79,9 +80,17 @@ class SuperligaYahooPipeline(object):
 			        item['fc'],  
 			        item['fr'],  
 			        item['br'],  
-			        item['ta'],  
-			        item['tr'],  
-			        item['j'],  
+                    item['ta'],  
+                    item['tr'],  
+                    item['j'],  
+                    item['puntos_totales'],
+                    item['precio'] ,
+                    item['forma'] ,
+                    item['media'],
+                    item['ptos_euro'] ,
+                    item['pop'] ,
+
+
 				))
 			self.conn.commit()
 		except psycopg2.IntegrityError:

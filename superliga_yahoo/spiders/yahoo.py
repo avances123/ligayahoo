@@ -57,6 +57,21 @@ class SuperligaYahooSpider(InitSpider):
         item['posicion'] = datos_personales[2].strip()
         item['equipo'] = datos_personales[3].strip()
         item['nombre'] = hxs.select('//div/div/div/div/div/h2/text()').extract()[0].strip()
+
+
+        #elem_grandes = hxs.select('//*[@id="player-card-header"]/div[1]//em/text()').extract()
+        elem_grandes = hxs.select('//*[@class="Grid boxes"]//em/text()').extract()
+        #GRANDES: [u'52pts', u'\u20ac 11.38M', u'3pts', u'5', u'5', u'1.03%']
+        self.log('GRANDES: %s' % elem_grandes)
+
+        item['puntos_totales'] = elem_grandes[0].replace('pts','')
+        item['precio'] = elem_grandes[1].replace(u'\u20ac ','').replace('M','')
+        item['forma'] = elem_grandes[2].replace('pts','')
+        item['media'] = elem_grandes[3]
+        item['ptos_euro'] = elem_grandes[4]
+        item['pop'] = elem_grandes[5].replace('%','') #popularidad
+
+
         #elementos = hxs.select('//span/em/text()').extract()
         elementos = hxs.select('//*[@id="stat-box"]//tr[1]/td/text()').extract()
         self.log('Elementos: %s' % elementos)

@@ -1,4 +1,4 @@
-Text,@href
+Text,URL
 C. Ronaldo,/fantasy/la-liga/details/14937
 L. Messi,/fantasy/la-liga/details/19054
 G. Bale,/fantasy/la-liga/details/36903

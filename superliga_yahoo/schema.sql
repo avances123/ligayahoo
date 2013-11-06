@@ -94,7 +94,14 @@ CREATE TABLE jugadores (
     br integer,
     ta integer,
     tr integer,
-    j integer
+    j integer,
+
+    puntos_totales integer,
+    precio real,
+    forma real,
+    media real,
+    ptos_euro real,
+    pop real
 );
 
 
