@@ -8,30 +8,22 @@ SET standard_conforming_strings = on;
 SET check_function_bodies = false;
 SET client_min_messages = warning;
 
-SET search_path = public, pg_catalog;
-
-ALTER TABLE ONLY public.equipos DROP CONSTRAINT equipos_jugador_fkey;
-ALTER TABLE ONLY public.jugadores DROP CONSTRAINT jugadores_pkey;
-ALTER TABLE ONLY public.equipos DROP CONSTRAINT equipos_pkey;
-DROP TABLE public.jugadores;
-DROP TABLE public.equipos;
-DROP EXTENSION plpgsql;
-DROP SCHEMA public;
 --
--- Name: public; Type: SCHEMA; Schema: -; Owner: postgres
+-- Name: ligayahoo; Type: DATABASE; Schema: -; Owner: fabio
 --
 
-CREATE SCHEMA public;
+CREATE DATABASE ligayahoo WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'es_ES.UTF-8' LC_CTYPE = 'es_ES.UTF-8';
 
 
-ALTER SCHEMA public OWNER TO postgres;
+ALTER DATABASE ligayahoo OWNER TO fabio;
 
---
--- Name: SCHEMA public; Type: COMMENT; Schema: -; Owner: postgres
---
+\connect ligayahoo
 
-COMMENT ON SCHEMA public IS 'standard public schema';
-
+SET statement_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
 
 --
 -- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
