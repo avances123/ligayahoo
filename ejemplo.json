@@ -1,0 +1,893 @@
+{
+   "g2" : {
+      "err" : null,
+      "data" : {
+         "notes" : [],
+         "injury" : false
+      }
+   },
+   "g0" : {
+      "err" : null,
+      "data" : {
+         "SC" : 5,
+         "T" : 0,
+         "OG" : 0,
+         "owned" : 2.21,
+         "avgl3w" : 9,
+         "id" : "stats.player-42839.2013.12",
+         "PKS" : 0,
+         "W" : 0,
+         "SV" : 0,
+         "FW" : 0,
+         "BS" : 0,
+         "YC" : 1,
+         "PC" : 0,
+         "GIVE" : 10,
+         "G" : 0,
+         "SOT" : 2,
+         "season" : "2013",
+         "SPG" : 0,
+         "FC" : 2,
+         "PKG" : 0,
+         "TW" : 3,
+         "player_id" : "42839",
+         "L" : 0,
+         "PTS" : 10,
+         "A" : 0,
+         "PKM" : 0,
+         "MWG" : 0,
+         "ppg" : 10,
+         "pps" : 1,
+         "week" : 12,
+         "AVG" : 10,
+         "salary" : 17.13,
+         "GP" : 1,
+         "CS" : 0,
+         "GA" : 0,
+         "live" : false,
+         "PI" : 1,
+         "RC" : 0
+      }
+   },
+   "g4" : {
+      "err" : null,
+      "data" : {
+         "SC" : 24,
+         "T" : 0,
+         "OG" : 0,
+         "owned" : 2.24,
+         "avgl3w" : 8,
+         "id" : "stats.player-42839.2013",
+         "PKS" : 0,
+         "W" : 0,
+         "SV" : 0,
+         "FW" : 13,
+         "BS" : 0,
+         "YC" : 2,
+         "PC" : 0,
+         "GIVE" : 83,
+         "G" : 3,
+         "SOT" : 9,
+         "season" : "2013",
+         "SPG" : 1,
+         "FC" : 8,
+         "PKG" : 0,
+         "TW" : 8,
+         "player_id" : "42839",
+         "L" : 0,
+         "PTS" : 103,
+         "A" : 3,
+         "PKM" : 0,
+         "MWG" : 1,
+         "ppg" : 9,
+         "pps" : 6,
+         "week" : "",
+         "AVG" : 8,
+         "salary" : 17.66,
+         "GP" : 12,
+         "CS" : 0,
+         "GA" : 0,
+         "live" : false,
+         "PI" : 7,
+         "RC" : 0
+      }
+   },
+   "g1" : {
+      "err" : null,
+      "data" : {
+         "player_id" : "42839",
+         "id" : "soes.history.player-42839",
+         "weeks" : [
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "182",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "sáb, dic  1",
+                     "away_team_abbr" : "MGA",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Malaga",
+                     "id" : "456455",
+                     "game_date" : "2012-12-01"
+                  }
+               ],
+               "owned" : 28.95,
+               "week" : 14,
+               "points" : 7,
+               "salary" : 19.14,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "RSO",
+                     "d_game_date" : "sáb, dic  8",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "188",
+                     "home_team_name" : "Real Sociedad",
+                     "away_team_name" : "Getafe",
+                     "id" : "456464",
+                     "game_date" : "2012-12-08"
+                  }
+               ],
+               "owned" : 28.87,
+               "week" : 15,
+               "points" : 6,
+               "salary" : 17.53,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "450",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "sáb, dic 15",
+                     "away_team_abbr" : "OSA",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Osasuna",
+                     "id" : "456480",
+                     "game_date" : "2012-12-15"
+                  }
+               ],
+               "owned" : 29.06,
+               "week" : 16,
+               "points" : 5,
+               "salary" : 17.07,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "VAL",
+                     "d_game_date" : "vie, dic 21",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "191",
+                     "home_team_name" : "Valencia",
+                     "away_team_name" : "Getafe",
+                     "id" : "456483",
+                     "game_date" : "2012-12-21"
+                  }
+               ],
+               "owned" : 24.89,
+               "week" : 17,
+               "points" : 0,
+               "salary" : 15.93,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "RAY",
+                     "d_game_date" : "lun, ene  7",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "184",
+                     "home_team_name" : "Rayo Vallecano",
+                     "away_team_name" : "Getafe",
+                     "id" : "456493",
+                     "game_date" : "2013-01-07"
+                  }
+               ],
+               "owned" : 23.44,
+               "week" : 18,
+               "points" : 0,
+               "salary" : 15.79,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "5683",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "lun, ene 14",
+                     "away_team_abbr" : "GRN",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Granada",
+                     "id" : "456503",
+                     "game_date" : "2013-01-14"
+                  }
+               ],
+               "owned" : 22.58,
+               "week" : 19,
+               "points" : 0,
+               "salary" : 15.21,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "179",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "sáb, ene 19",
+                     "away_team_abbr" : "SEV",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Sevilla",
+                     "id" : "456521",
+                     "game_date" : "2013-01-19"
+                  }
+               ],
+               "owned" : 21.89,
+               "week" : 20,
+               "points" : 0,
+               "salary" : 15.11,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "MAD",
+                     "d_game_date" : "dom, ene 27",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "186",
+                     "home_team_name" : "Real Madrid",
+                     "away_team_name" : "Getafe",
+                     "id" : "456531",
+                     "game_date" : "2013-01-27"
+                  }
+               ],
+               "owned" : 21.21,
+               "week" : 21,
+               "points" : 0,
+               "salary" : 13.91,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "180",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "sáb, feb  2",
+                     "away_team_abbr" : "DEP",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Deportivo La Coruña",
+                     "id" : "456540",
+                     "game_date" : "2013-02-02"
+                  }
+               ],
+               "owned" : 21.38,
+               "week" : 22,
+               "points" : 0,
+               "salary" : 13.38,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "BAR",
+                     "d_game_date" : "dom, feb 10",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "178",
+                     "home_team_name" : "Barcelona",
+                     "away_team_name" : "Getafe",
+                     "id" : "456550",
+                     "game_date" : "2013-02-10"
+                  }
+               ],
+               "owned" : 20.83,
+               "week" : 23,
+               "points" : 0,
+               "salary" : 13.24,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "176",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "sáb, feb 16",
+                     "away_team_abbr" : "CEL",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Celta Vigo",
+                     "id" : "456559",
+                     "game_date" : "2013-02-16"
+                  }
+               ],
+               "owned" : 23.95,
+               "week" : 24,
+               "points" : 1,
+               "salary" : 11.47,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "MAL",
+                     "d_game_date" : "sáb, feb 23",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "181",
+                     "home_team_name" : "Mallorca",
+                     "away_team_name" : "Getafe",
+                     "id" : "456569",
+                     "game_date" : "2013-02-23"
+                  }
+               ],
+               "owned" : 24.11,
+               "week" : 25,
+               "points" : 3.5,
+               "salary" : 11.89,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "190",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "vie, mar  1",
+                     "away_team_abbr" : "RZG",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Real Zaragoza",
+                     "id" : "456578",
+                     "game_date" : "2013-03-01"
+                  }
+               ],
+               "owned" : 24.8,
+               "week" : 26,
+               "points" : 0,
+               "salary" : 12.84,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "LEV",
+                     "d_game_date" : "dom, mar 10",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "855",
+                     "home_team_name" : "Levante",
+                     "away_team_name" : "Getafe",
+                     "id" : "456588",
+                     "game_date" : "2013-03-10"
+                  }
+               ],
+               "owned" : 20.55,
+               "week" : 27,
+               "points" : 0,
+               "salary" : 12.45,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "174",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "sáb, mar 16",
+                     "away_team_abbr" : "BIL",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Athletic Bilbao",
+                     "id" : "456597",
+                     "game_date" : "2013-03-16"
+                  }
+               ],
+               "owned" : 21.85,
+               "week" : 28,
+               "points" : 16.5,
+               "salary" : 12.42,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "BET",
+                     "d_game_date" : "lun, abr  1",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "185",
+                     "home_team_name" : "Real Betis",
+                     "away_team_name" : "Getafe",
+                     "id" : "456607",
+                     "game_date" : "2013-04-01"
+                  }
+               ],
+               "owned" : 21.94,
+               "week" : 29,
+               "points" : 15.5,
+               "salary" : 18.45,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "175",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "dom, abr  7",
+                     "away_team_abbr" : "AMR",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Atlético Madrid",
+                     "id" : "456616",
+                     "game_date" : "2013-04-07"
+                  }
+               ],
+               "owned" : 22.08,
+               "week" : 30,
+               "points" : 0,
+               "salary" : 21.65,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "VLD",
+                     "d_game_date" : "sáb, abr 13",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "192",
+                     "home_team_name" : "Real Valladolid",
+                     "away_team_name" : "Getafe",
+                     "id" : "456626",
+                     "game_date" : "2013-04-13"
+                  }
+               ],
+               "owned" : 20.06,
+               "week" : 31,
+               "points" : 0,
+               "salary" : 17.59,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "177",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "dom, abr 21",
+                     "away_team_abbr" : "ESP",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Espanyol",
+                     "id" : "456635",
+                     "game_date" : "2013-04-21"
+                  }
+               ],
+               "owned" : 20.2,
+               "week" : 32,
+               "points" : 4,
+               "salary" : 17.98,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "MGA",
+                     "d_game_date" : "dom, abr 28",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "182",
+                     "home_team_name" : "Malaga",
+                     "away_team_name" : "Getafe",
+                     "id" : "456645",
+                     "game_date" : "2013-04-28"
+                  }
+               ],
+               "owned" : 20.17,
+               "week" : 33,
+               "points" : 12.5,
+               "salary" : 17.71,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "188",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "lun, may  6",
+                     "away_team_abbr" : "RSO",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Real Sociedad",
+                     "id" : "456654",
+                     "game_date" : "2013-05-06"
+                  }
+               ],
+               "owned" : 20.18,
+               "week" : 34,
+               "points" : 20,
+               "salary" : 21.28,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "OSA",
+                     "d_game_date" : "sáb, may 11",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "450",
+                     "home_team_name" : "Osasuna",
+                     "away_team_name" : "Getafe",
+                     "id" : "456664",
+                     "game_date" : "2013-05-11"
+                  }
+               ],
+               "owned" : 20.09,
+               "week" : 35,
+               "points" : 0.5,
+               "salary" : 25.34,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "191",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "sáb, may 18",
+                     "away_team_abbr" : "VAL",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Valencia",
+                     "id" : "456673",
+                     "game_date" : "2013-05-18"
+                  }
+               ],
+               "owned" : 20.29,
+               "week" : 36,
+               "points" : 8,
+               "salary" : 22.57,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "184",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "dom, may 26",
+                     "away_team_abbr" : "RAY",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Rayo Vallecano",
+                     "id" : "456683",
+                     "game_date" : "2013-05-26"
+                  }
+               ],
+               "owned" : 20.25,
+               "week" : 37,
+               "points" : 10,
+               "salary" : 22.81,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "GRN",
+                     "d_game_date" : "sáb, jun  1",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "5683",
+                     "home_team_name" : "Granada",
+                     "away_team_name" : "Getafe",
+                     "id" : "456693",
+                     "game_date" : "2013-06-01"
+                  }
+               ],
+               "owned" : 19.92,
+               "week" : 38,
+               "points" : 3,
+               "salary" : 22.93,
+               "season" : 2012
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "RSO",
+                     "d_game_date" : "sáb, ago 17",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "188",
+                     "home_team_name" : "Real Sociedad",
+                     "away_team_name" : "Getafe",
+                     "id" : "707600",
+                     "game_date" : "2013-08-17"
+                  }
+               ],
+               "owned" : 3.64,
+               "week" : 1,
+               "points" : 1,
+               "salary" : 20.08,
+               "season" : 2013
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1564",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "vie, ago 23",
+                     "away_team_abbr" : "ALM",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Almería",
+                     "id" : "707611",
+                     "game_date" : "2013-08-23"
+                  }
+               ],
+               "owned" : 0,
+               "week" : 2,
+               "points" : 6,
+               "salary" : 18.54,
+               "season" : 2013
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "VLD",
+                     "d_game_date" : "sáb, ago 31",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "192",
+                     "home_team_name" : "Real Valladolid",
+                     "away_team_name" : "Getafe",
+                     "id" : "707617",
+                     "game_date" : "2013-08-31"
+                  }
+               ],
+               "owned" : 1.58,
+               "week" : 3,
+               "points" : 7,
+               "salary" : 18.77,
+               "season" : 2013
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "450",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "dom, sep 15",
+                     "away_team_abbr" : "OSA",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Osasuna",
+                     "id" : "707630",
+                     "game_date" : "2013-09-15"
+                  }
+               ],
+               "owned" : 1.26,
+               "week" : 4,
+               "points" : 10,
+               "salary" : 15.46,
+               "season" : 2013
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "MAD",
+                     "d_game_date" : "dom, sep 22",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "186",
+                     "home_team_name" : "Real Madrid",
+                     "away_team_name" : "Getafe",
+                     "id" : "707638",
+                     "game_date" : "2013-09-22"
+                  }
+               ],
+               "owned" : 1.2,
+               "week" : 5,
+               "points" : -5,
+               "salary" : 15.95,
+               "season" : 2013
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "176",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "jue, sep 26",
+                     "away_team_abbr" : "CEL",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Celta Vigo",
+                     "id" : "707646",
+                     "game_date" : "2013-09-26"
+                  }
+               ],
+               "owned" : 1.2,
+               "week" : 6,
+               "points" : 11,
+               "salary" : 13.35,
+               "season" : 2013
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "ESP",
+                     "d_game_date" : "dom, sep 29",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "177",
+                     "home_team_name" : "Espanyol",
+                     "away_team_name" : "Getafe",
+                     "id" : "707660",
+                     "game_date" : "2013-09-29"
+                  }
+               ],
+               "owned" : 1.2,
+               "week" : 7,
+               "points" : 4,
+               "salary" : 14.63,
+               "season" : 2013
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "185",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "dom, oct  6",
+                     "away_team_abbr" : "BET",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Real Betis",
+                     "id" : "707666",
+                     "game_date" : "2013-10-06"
+                  }
+               ],
+               "owned" : 1.16,
+               "week" : 8,
+               "points" : 31,
+               "salary" : 14.91,
+               "season" : 2013
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "GRN",
+                     "d_game_date" : "dom, oct 20",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "5683",
+                     "home_team_name" : "Granada",
+                     "away_team_name" : "Getafe",
+                     "id" : "707677",
+                     "game_date" : "2013-10-20"
+                  }
+               ],
+               "owned" : 1.2,
+               "week" : 9,
+               "points" : 14,
+               "salary" : 14.58,
+               "season" : 2013
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "174",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "lun, oct 28",
+                     "away_team_abbr" : "BIL",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Athletic Bilbao",
+                     "id" : "707687",
+                     "game_date" : "2013-10-28"
+                  }
+               ],
+               "owned" : 1.87,
+               "week" : 10,
+               "points" : 6,
+               "salary" : 21.33,
+               "season" : 2013
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "1450",
+                     "home_team_abbr" : "VIL",
+                     "d_game_date" : "jue, oct 31",
+                     "away_team_abbr" : "GET",
+                     "home_team_id" : "449",
+                     "home_team_name" : "Villarreal",
+                     "away_team_name" : "Getafe",
+                     "id" : "707700",
+                     "game_date" : "2013-10-31"
+                  }
+               ],
+               "owned" : 2.01,
+               "week" : 11,
+               "points" : 8,
+               "salary" : 19.9,
+               "season" : 2013
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "191",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "dom, nov  3",
+                     "away_team_abbr" : "VAL",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Valencia",
+                     "id" : "707706",
+                     "game_date" : "2013-11-03"
+                  }
+               ],
+               "owned" : 2.21,
+               "week" : 12,
+               "points" : 10,
+               "salary" : 17.13,
+               "season" : 2013
+            },
+            {
+               "games" : [
+                  {
+                     "away_team_id" : "954",
+                     "home_team_abbr" : "GET",
+                     "d_game_date" : "sáb, nov  9",
+                     "away_team_abbr" : "ELC",
+                     "home_team_id" : "1450",
+                     "home_team_name" : "Getafe",
+                     "away_team_name" : "Elche",
+                     "id" : "707716",
+                     "game_date" : "2013-11-09"
+                  }
+               ],
+               "owned" : 2.24,
+               "week" : 13,
+               "points" : 0,
+               "salary" : 17.66,
+               "season" : 2013
+            }
+         ]
+      }
+   },
+   "g3" : {
+      "err" : null,
+      "data" : {
+         "position" : "M",
+         "team_name" : "Getafe",
+         "last_name" : "Sánchez Gil",
+         "team_abbr" : "GET",
+         "season_points" : 103,
+         "owned" : 2.24,
+         "g" : [
+            {
+               "a" : "ELC",
+               "h" : "GET"
+            }
+         ],
+         "avgl3w" : 8,
+         "injury_status" : false,
+         "id" : "42839",
+         "ppg" : 9,
+         "pps" : 6,
+         "name" : "Pedro León",
+         "uniform_number" : "14",
+         "team_id" : "1450",
+         "salary" : 17.66,
+         "GP" : 12,
+         "pos_type" : "P",
+         "first_name" : "Pedro León"
+      }
+   }
+}
