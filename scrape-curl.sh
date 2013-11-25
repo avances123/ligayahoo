@@ -1,9 +1,8 @@
 
 
-#a=$(date +"%Y-%m-%dT%H:%M:00")
-a=$(date +"%s000")
+a=$(date +"%s000") # Millisecond from epoch
 
-mongo ligayahoo --eval "db.dropDatabase()" !! exit 1
+#mongo ligayahoo --eval "db.dropDatabase()" !! exit 1
 
 for i in $(cat id.txt);do
 
