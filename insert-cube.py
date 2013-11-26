@@ -22,8 +22,7 @@ for i in entradas:
     player_name = player_name.lower()
     player_name = pattern.sub('_', player_name)
     salario = i['g1']['data']['weeks'][0]['salary']
-    #if salario > 15:
-    #    salario = salario + 6
-    cube.put('id_' + i['g3']['data']['id'],{'salary': salario})
+    if salario > 10:
+        cube.put('id_' + i['g3']['data']['id'],{'salary': salario})
 
 print "[%s] Num eventos %d" % (datetime.now(),x)

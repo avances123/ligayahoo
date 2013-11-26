@@ -1,0 +1,2 @@
+*/15 * * * * cd /home/fabio/src/superliga_yahoo && ./scrape-curl.sh 2>&1 >/tmp/ligayahoo-scraper.log
+*/1 * * * * cd /home/fabio/src/superliga_yahoo && /home/fabio/.virtualenvs/ligayahoo/bin/python insert-cube.py 2>&1 >>/tmp/ligayahoo-insert.log
