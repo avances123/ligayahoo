@@ -19,9 +19,9 @@ curl -s 'http://es.eurosport.yahoo.com/_fantasy_api?crumb=E4oE8XTIdhf&timeout=30
 -H 'X-Requested-With: XMLHttpRequest' \
 -H 'Connection: keep-alive' --data-binary "{\"requests\":{\"g0\":{\"resource\":\"salcap.player_stats\",\"operation\":\"read\",\"params\":{\"id\":\"${i}\",\"game\":\"soes\",\"force\":true}},\"g1\":{\"resource\":\"salcap.player_history\",\"operation\":\"read\",\"params\":{\"id\":\"${i}\",\"game\":\"soes\",\"force\":true,\"stats\":\"1\"}},\"g2\":{\"resource\":\"salcap.player_notes\",\"operation\":\"read\",\"params\":{\"id\":\"${i}\",\"game\":\"soes\",\"force\":true}},\"g3\":{\"resource\":\"salcap.player\",\"operation\":\"read\",\"params\":{\"id\":\"${i}\",\"game\":\"soes\",\"force\":true}},\"g4\":{\"resource\":\"salcap.player_season_stats\",\"operation\":\"read\",\"params\":{\"id\":\"${i}\",\"game\":\"soes\",\"force\":true,\"season\":\"2013\"}}},\"context\":{\"crumb\":\"E4oE8XTIdhf\"}}" --compressed \
 | sed "s/^{/{\"date\":Date($a),/" \
-| tee -a jugadores/${i}.json \
 | mongoimport --db ligayahoo --collection jugadores
 #| json_pp > jugadores/${i}.json
+#| tee -a jugadores/${i}.json \
 
 
 done
